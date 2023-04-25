@@ -20,16 +20,22 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Roles
 - Configure Departments
 - Configure Teams 
-- Configure Agents (workers)
-- Configure Users (customers)
+- Configure Agents (Workers)
+- Configure Users (Customers)
 - Configure SLA
-- Configure Help Topics
+- Configure Example Help Topics
   - A Business Critical Outage
   - Personal Computer Issues
   - Equipment Request
   - Password Resets
-- All documentation referenced for setup can be found here: *link osTicket docs*
-  - 
+- All documentation referenced for setup can be found here:
+  - [Roles](https://docs.osticket.com/en/latest/Admin/Agents/Roles.html)
+  - [Departments](https://docs.osticket.com/en/latest/Admin/Agents/Departments.html)
+  - [Teams](https://docs.osticket.com/en/latest/Admin/Agents/Teams.html)
+  - [Agents](https://docs.osticket.com/en/latest/Admin/Agents/Agents.html)
+  - [Users](https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html)
+  - [SLA](https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html)
+  - [Help Topics](https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html)
 
 <h2>Configuration Steps</h2>
 
