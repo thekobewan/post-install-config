@@ -18,25 +18,25 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1: Configure Roles
-- Item 2: Configure Departments
-- Item 3: Configure Teams
-- Item 4: Allow Anyone to Create Tickets
-- Item 5: Configure Agents (employees)
-- Item 6: Configure Users (customers)
-- Item 7: Configure SLA
-- Item 8: Configure Help Topics
+1. Configure Roles
+2. Configure Departments
+3. Configure Teams
+4. Allow Anyone to Create Tickets
+5. Configure Agents (employees)
+6. Configure Users (customers)
+7. Configure SLA
+8. Configure Help Topics
 
 <h2>Prerequisites</h2>
 
-In the previous project, we installed osTicket and items to allow osTicket to run effectively. In order to do this project, osTicket must already be installed. Link to installing osTicket: https://github.com/darinnstathos/osticket-prereqs.git
+In the previous project, we installed osTicket and the prerequisites required for it to run properly. In order to complete this project, osTicket must already be installed. Review the other tutorial [here](https://github.com/thekobewan/osticket-prereqs) before attempting this one.
 
 <h2>Configuration Steps</h2>
 
 <h3>Access osTicket</h3>
 
 1. Navigate to Microsoft Azure portal > select ‘Virtual Machines’ > select ‘VM-osTicket > copy the Public IP address (Example: 20.14.93.5)
-2. Open Microsoft Remote Connection (for Windows) or launch Microsoft Remote Desktop app (for MacOS) > paste Public IP address > log in with the username/password created in step 1 of the previous lab: https://github.com/darinnstathos/osticket-prereqs.git
+2. Open Microsoft Remote Connection (for Windows) or launch Microsoft Remote Desktop app (for MacOS) > paste Public IP address > log in with the username/password created in step 1 of the previous [lab](https://github.com/thekobewan/osticket-prereqs)
 3. Navigate to the URL for admin login:  http://localhost/osTicket/scp/login.php
 4. Login with the admin username & password created in step 3 of the previous lab. (Example: darin_admin)
 
@@ -324,4 +324,5 @@ osTicket documentation on Users: https://docs.osticket.com/en/latest/Agent/Users
 
 <p>Side note: It's possible to do email configuration inside of osTicket so that users can send an email and/or fill out a form. Doing so will automatically generate a ticket for Agents to access/answer. However, that won't be covered in this project.</p>
 
-<p>Now that we have installed osTicket and configured inside of it, it is time to create tickets and examine ticket lifecycles: https://github.com/darinnstathos/ticket-lifecycle.git </p>
+<p>Now that we have installed osTicket and configured each aspect of it, it's time to create tickets and examine the entire ticket lifecycle. You can find that tutorial here: (https://github.com/thekobewan/ticket-lifecycle/tree/main)
+</p>
